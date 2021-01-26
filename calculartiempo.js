@@ -66,8 +66,7 @@ boton.onclick = function () {
     totalSegundos = totalSegundos % 60
     totalMinutos = totalMinutos % 60
     document.querySelector("#total").innerHTML = "Tiempo total: "+totalHoras+" : "+totalMinutos+" : "+totalSegundos
-    debugger;    
-
+    
 }
 
 
